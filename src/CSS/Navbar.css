@@ -1,0 +1,6 @@
+.navbar-animation:hover{
+    border-bottom: 3px solid indigo;
+}
+.navbar-animation:focus{
+    border-bottom: 3px solid indigo;
+}
