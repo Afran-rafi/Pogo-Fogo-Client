@@ -4,3 +4,7 @@
 .navbar-animation:focus{
     border-bottom: 3px solid indigo;
 }
+
+.height{
+    height: 90vh;
+}
