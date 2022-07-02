@@ -14,7 +14,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className='sticky z-50 font-[Poppins]'>
+        <div className='sticky z-50 font-[Poppins] NavbarBg'>
             <div className='nav shadow-md lg:shadow-none w-full lg:top-12 left-0'>
                 <div className='lg:flex flex items-center justify-between lg:mx-20 h-20'>
                     <div className='cursor-pointer'>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     <ul className={`lg:flex lg:items-center lg:pb-0 pb-8 absolute lg:static bg-white lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-7 transition-all duration-500 ease-in ${open ? 'top-16 opacity-100' : 'top-[-490px] opacity-0'} lg:opacity-100`}>
                         {
                             links.map(link => <li
-                                className='lg:ml-8 text-xl lg:my-0 my-5'
+                                className='px-4 text-xl lg:my-0 my-5 lg:bg-accent'
                                 key={link.name}>
                                 <NavLink className='navbar-animation' to={link.link}>{link.name}</NavLink>
                             </li>)

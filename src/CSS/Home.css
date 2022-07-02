@@ -1,0 +1,15 @@
+.bc{
+    background-image: linear-gradient(45deg, #c7e6f5, #6fdefa);
+}
+
+.NavbarBg{
+    background-color: #8de3f8;
+}
+
+.button{
+    background-color: #003947;
+}
+
+.button:hover{
+    background-color: #0490b3;
+}
